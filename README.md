@@ -1,16 +1,55 @@
-# React + Vite
+# 🐍 Snake Pong - React Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern reimplementation of the classic Snake game with a twist: the food moves dynamically like a Pong ball! Originally built with Vanilla JS, this project was refactored to **React** to leverage component-based architecture and Hooks.
 
-Currently, two official plugins are available:
+![Project Screenshot](./screenshot.png)
+## 🎮 How to Play
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Arrow Keys:** Control the snake's direction.
+* **Enter:** Restart the game after a Game Over.
+* **Objective:** Eat the food (red square) to grow and earn points. Watch out! The food moves and bounces off the walls.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Classic Snake Mechanics:** Movement, collision detection (walls and self), and tail growth.
+* **"Pong" Food Logic:** The target isn't static; it moves and bounces, adding a layer of difficulty.
+* **High Score System:** Persists your best score using the browser's `localStorage`.
+* **React Hooks:** Built entirely using functional components with `useState`, `useEffect`, `useRef`, and `useCallback`.
+* **Canvas API:** Smooth rendering using HTML5 Canvas within a React context.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React.js** (Hooks & State Management)
+* **HTML5 Canvas** (Rendering)
+* **CSS3** (Styling & Responsive Layout)
+* **Vite** (Build Tool)
+
+## 📦 How to Run Locally
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/ianprocopio/Jogo.git](https://github.com/ianprocopio/Jogo.git)
+    ```
+
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Jogo
+    ```
+
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Open your browser at `http://localhost:5173` (or the port shown in your terminal).
+
+## 👨‍💻 Author
+
+Developed by **Ian Procopio**.
+* [GitHub](https://github.com/ianprocopio)
+* [LinkedIn](https://www.linkedin.com/in/ian-proc%C3%B3pio-0012b239b/) ---
