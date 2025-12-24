@@ -1,0 +1,65 @@
+/* SnakeGame.css */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.scores {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.canvas-container {
+    position: relative;
+    border: 2px solid #fff;
+}
+
+canvas {
+    display: block;
+    background-color: black;
+}
+
+.game-over-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.game-over-screen h2 {
+    color: #ff4444;
+    margin-bottom: 10px;
+}
+
+.restart-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.restart-btn:hover {
+    background-color: #ccc;
+}
